@@ -40,6 +40,11 @@ form button:hover {
   color: wheat;
 }
 
+.todo-input-div{
+  display: flex;
+
+}
+
 .todo-container {
   display: flex;
   justify-content: center;
@@ -157,6 +162,7 @@ select {
 }
 
 @media only screen and (max-width: 480px) {
+ 
   form {
     position: relative;
     display: flex;
@@ -166,9 +172,10 @@ select {
     align-items: center;
     margin-left: 10%;
   }
+ 
   .todo-button {
     position: absolute;
-    top: 0px;
     right: 5%;
   }
 } ;
+
